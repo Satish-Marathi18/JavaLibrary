@@ -14,9 +14,9 @@ public class Person {
 	}
 	
 	public static void main(String[] args) {
-		Person p1=new Person(21);
-		Person p2=new Person(22);
-		System.out.println(p1);
-		System.out.println(p2);
+		Person person1=new Person(21);
+		Person person2=new Person(22);
+		System.out.println(person1);
+		System.out.println(person2);
 	}
 }

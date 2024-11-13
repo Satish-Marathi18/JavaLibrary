@@ -7,7 +7,7 @@ public class Bike {
 		return 100;
 	}
 	public static void main(String[] args) {
-		Bike b = new Bike();
-		System.out.println(b.hashCode());
+		Bike bike = new Bike();
+		System.out.println(bike.hashCode());
 	}
 }

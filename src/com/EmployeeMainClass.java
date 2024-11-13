@@ -3,10 +3,10 @@ package com;
 public class EmployeeMainClass {
 
 	public static void main(String[] args) {
-		Employee e1 = new Employee(101,"Satish");
-		Employee e2 = new Employee(102,"Vikas");
-		System.out.println(e1); //e1.toString()
-		System.out.println(e2); //e2.toString()
+		Employee employee1 = new Employee(101,"Satish");
+		Employee employee2 = new Employee(102,"Vikas");
+		System.out.println(employee1); //e1.toString()
+		System.out.println(employee2); //e2.toString()
 	}
 	
 	

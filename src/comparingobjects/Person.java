@@ -20,9 +20,9 @@ public class Person {
 	}
 	
 	public static void main(String[] args) {
-		Person p1=new Person(22,5.8);
-		Person p2=new Person(22,5.8);
+		Person person1=new Person(22,5.8);
+		Person person2=new Person(22,5.8);
 		Car c1=new Car(100) ;
-		System.out.println(p1.equals(p2));
+		System.out.println(person1.equals(person2));
 	}
 }
